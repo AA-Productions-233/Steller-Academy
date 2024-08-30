@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stellar Academy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+        .hero {
+            background: url('hero-background.jpg') no-repeat center center;
+            background-size: cover;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: bold;
+        }
+        .features {
+            padding: 4rem 0;
+        }
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 2rem 0;
+        }
+        .social-icon {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+      
+    .about-section {
+        background-color: #f8f9fa;
+        padding: 80px 0;
+    }
+    .about-card {
+        background-color: #ffffff;
+        border-radius: 15px;
+        padding: 30px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        height: 100%;
+        transition: transform 0.3s ease;
+    }
+    .about-card:hover {
+        transform: translateY(-5px);
+    }
+    .about-section h2 {
+        color: #17a2b8;
+        font-weight: 700;
+    }
+    .about-section h3 {
+        color: #343a40;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    .lead {
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: #17a2b8;
+        margin-bottom: 20px;
+    }
+    .mission-list, .feature-list {
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+    .mission-list li, .feature-list li {
+        margin-bottom: 10px;
+    }
+    .highlight {
+        color: #17a2b8;
+        font-weight: 600;
+    }
+    .feature-list i {
+        color: #28a745;
+        margin-right: 10px;
+    }
+    .about-section p {
+        line-height: 1.6;
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Stellar Academy</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Admission Form</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Welcome to Stellar Academy</h1>
+                <p class="lead">Empowering minds, shaping futures</p>
+                <a href="#" class="btn btn-primary btn-lg">Learn More</a>
+            </div>
+        </section>
+
+        <section class="features bg-light">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-4 mb-4">
+                        <div class="feature-icon text-primary">
+                        </div>
+                        <h3>Quality Education</h3>
+                        <p>Our curriculum is designed to challenge and inspire students to reach their full potential.</p>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="feature-icon text-primary">
+                        </div>
+                        <h3>Expert Faculty</h3>
+                        <p>Learn from passionate educators who are leaders in their respective fields.</p>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="feature-icon text-primary">
+                        </div>
+                        <h3>Global Perspective</h3>
+                        <p>Prepare for an interconnected world with our diverse and inclusive community.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section class="about-section">
+        <div class="container">
+            <h2 class="text-center">About Stellar Academy</h2>
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <h3>Our Mission</h3>
+                    <p>At Stellar Academy, our mission is to inspire and empower the next generation of leaders, innovators, and thinkers. We believe in fostering a love for learning that extends far beyond the classroom, preparing our students not just for academic success, but for life.</p>
+                    <p>Through a combination of rigorous academics, cutting-edge technology, and a supportive community, we create an environment where curiosity thrives and potential is unlimited.</p>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <h3>Why Choose Us?</h3>
+                    <p>Choosing the right educational institution is a crucial decision. Here's why Stellar Academy stands out:</p>
+                    <ul>
+                        <li>Innovative curriculum that balances traditional fundamentals with 21st-century skills</li>
+                        <li>Small class sizes ensuring personalized attention and mentorship</li>
+                        <li>State-of-the-art facilities including advanced laboratories and a digital library</li>
+                        <li>Strong emphasis on character development and ethical leadership</li>
+                        <li>Diverse extracurricular programs to nurture well-rounded individuals</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12">
+                    <h3>Our Commitment to Excellence</h3>
+                    <p>Stellar Academy is committed to maintaining the highest standards of educational excellence. Our faculty comprises experienced educators and industry experts who are passionate about guiding young minds. We continuously update our teaching methodologies and resources to stay at the forefront of educational innovation.</p>
+                    <p>We believe that true education goes beyond textbooks. That's why we emphasize practical learning, critical thinking, and real-world problem-solving skills. Our students don't just learn; they apply their knowledge to make a difference in their communities and beyond.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Contact Us</h5>
+                    <p>123 Education St.<br>Anytown, ST 12345<br>Phone: (123) 456-7890<br>Email: info@stellaracademy.edu</p>
+                </div>
+                
+                <div class="col-md-4">
+                    <h5>Follow Us</h5>
+                    <a href="#" class="text-white">
+                        <img src="facebook.png" alt="Facebook" class="social-icon">
+                    </a>
+                    <a href="#" class="text-white">
+                        <img src="twitter.png" alt="Twitter" class="social-icon">
+                    </a>
+                    <a href="#" class="text-white">
+                        <img src="instagram.png" alt="Instagram" class="social-icon">
+                    </a>
+                    <a href="#" class="text-white">
+                        <img src="linkedin.png" alt="LinkedIn" class="social-icon">
+                    </a>
+                </div>
+            </div>
+            <hr class="mt-4">
+            <div class="text-center">
+                <p>&copy; 2024 Stellar Academy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
